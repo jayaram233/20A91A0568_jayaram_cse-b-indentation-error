@@ -1,0 +1,50 @@
+ a=int(input("enter value:")) #indentation error
+b=int(input("enter value:"))
+total=a+b
+print(total)
+if a>b:
+	print("a is greater number")
+	print("hi cse-b")
+else :
+print("b is greater number") #indentation error
+	print("hello! jayaram")
+ 
+print(" Welcome to python programming lab") 
+ 
+Expected output:
+ Indentation error: Unexpected indent
+
+Original output:
+ Indentation error: Unexpected indent
+
+
+a=int(input("enter value:")) 
+b=int(input("enter value:"))
+total=a+b
+print(total)
+if a>b:
+	print("a is greater number")
+	print("hi cse-b")
+else :
+	print("b is greater number")
+	print("hello! jayaram")
+ 
+print("Welcome to python programming lab") 
+
+
+Expected output:
+enter value: 8
+enter value: 9
+17
+b is greater number 
+hello! jayaram
+Welcome to python programming lab 
+
+Original output:
+enter value: 24
+enter value: 34
+58
+b is greater number 
+hello! jayaram
+Welcome to python programming lab 
+
